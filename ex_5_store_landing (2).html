@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ex5store - Produto Exclusivo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #000;
+      color: #fff;
+      overflow-x: hidden;
+    }
+    header {
+      text-align: center;
+      padding: 30px 0;
+      font-size: 36px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      animation: fadeDown 1s ease;
+    }
+    @keyframes fadeDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .hero {
+      text-align: center;
+      padding: 20px;
+      max-width: 700px;
+      margin: auto;
+      animation: fadeUp 1s ease;
+    }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #111;
+      border-radius: 15px;
+      border: 1px solid #222;
+      animation: fadeUp 1s ease;
+    }
+    .product-card img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 0 20px #4f46e5;
+    }
+    .btn {
+      display: block;
+      width: 100%;
+      text-align: center;
+      padding: 15px;
+      background: linear-gradient(90deg,#4f46e5,#7c4dff);
+      color: #fff;
+      border-radius: 10px;
+      font-size: 20px;
+      margin-top: 15px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px #6d5cff;
+    }
+    .faq-item {
+      margin-bottom: 20px;
+    }
+    .footer {
+      text-align: center;
+      margin: 40px 0 20px;
+      font-size: 12px;
+      color: #777;
+    }
+    .logo {
+      width: 120px;
+      margin: 0 auto 10px;
+      opacity: 0.9;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo_placeholder.png" class="logo" />
+    ex5store
+  </header>
+
+  <section class="hero">
+    <h2>Seu upgrade começa aqui.</h2>
+    <p>Visual premium, carregamento rápido e páginas feitas para vender de verdade.</p>
+  </section>
+
+  <section class="section product-card">
+    <img src="product.jpg" alt="Produto" />
+    <h3 style="margin-top: 15px; font-size: 24px;">Produto Exclusivo ex5</h3>
+    <p style="color: #ccc;">Uma descrição direta e convincente do seu produto para despertar interesse imediato.</p>
+    <a class="btn" href="https://pay.kiwify.com.br/CgGOEHx?afid=hVkNU6ZV" target="_blank">Comprar Agora</a>
+  </section>
+
+  <section class="section">
+    <h3>Depoimentos</h3>
+    <p>“Transformou meu dia a dia, valeu cada centavo.” — João</p>
+    <p>“Simples, rápido e útil de verdade.” — Marina</p>
+    <p>“Nunca fui tão bem atendido. 100% aprovado.” — Eduardo</p>
+  </section>
+
+  <section class="section">
+    <h3>Garantia</h3>
+    <p>Você tem <strong>7 dias de garantia incondicional</strong>. Não gostou? Seu dinheiro volta sem perguntas.</p>
+  </section>
+
+  <section class="section">
+    <h3>FAQ — Perguntas Frequentes</h3>
+    <div class="faq-item">
+      <strong>Como recebo o produto?</strong>
+      <p>Você recebe automaticamente no email após a compra.</p>
+    </div>
+    <div class="faq-item">
+      <strong>O pagamento é seguro?</strong>
+      <p>Sim! A Kiwify usa tecnologia de alta segurança.</p>
+    </div>
+    <div class="faq-item">
+      <strong>Funciona em qualquer dispositivo?</strong>
+      <p>Sim! Celular, tablet e computador.</p>
+    </div>
+  </section>
+
+  <div class="footer">ex5 © 2025 — Todos os direitos reservados.</div>
+</body>
+</html>
